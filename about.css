@@ -1,0 +1,120 @@
+*{
+    margin: 0%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+body{
+margin: 0;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+header .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 228);
+    z-index: 1000; 
+    margin: 0;
+    height: 3.5rem;
+  }
+
+  header .links {
+    display: flex;
+  }
+
+  header .links img{
+    width: 45px;
+    height: 32px;
+  }
+
+  header .links a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 150%;
+  }
+  
+  header h2 a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+.main{ 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    background-image: url(https://images.pexels.com/photos/2747901/pexels-photo-2747901.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    height: 62rem;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.main h1 {
+    font-family: Playfair Display;
+    font-size: 70px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+} 
+
+.main h2 {
+    font-family: Playfair Display;
+    font-weight: 400;
+    text-align: center;
+} 
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.description p {
+    font-size: 130%;
+    padding: 2%;
+    margin-top: 5rem;
+}
+
+.description i {
+    font-size: 110%;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(231, 231, 228);
+    z-index: 1000; 
+    margin: 0;
+    height: 2.5rem;
+  }
+
+  footer p {
+    font-size: 120%;
+  }
+
+  footer .footerImages {
+    display: flex;
+   
+  }
+
+  footer .footerImages img {
+    margin-right: 10px;
+  }
